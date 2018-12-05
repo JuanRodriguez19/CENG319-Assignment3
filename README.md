@@ -26,8 +26,8 @@ Listener method is invoked at the end of user interactions with the SeekBar. Whe
 
 Additional methods may be used, but are not mandatory. Some examples are:
 
-getMax() – Allows users to set a maximum integer value for their progress of the SeekBar.
-getProgress() – Displays current progress from the SeekBars position in real time. 
+<b>getMax() –</b> Allows users to set a maximum integer value for their progress of the SeekBar.
+<b>getProgress() –</b> Displays current progress from the SeekBars position in real time. 
 
 ## Example Project
 Attached to this repository is an example project of how this code functions and appears to users. Each main line of code which is crucial for functionally has an included comment for an easy understanding of the structure created. The only files required were the main XML file for the design of the layout, MainActivity.java for method implementation, and strings.xml file for the few TextViews created. Optionally, a landscape xml file was created just to allow functionality when screen orientation was changed. No external sources or files are required to make such code operate.
