@@ -26,7 +26,7 @@ Listener method is invoked at the end of user interactions with the SeekBar. Whe
 
 Additional methods may be used, but are not mandatory. Some examples are:
 
-<b>getMax() –</b> Allows users to set a maximum integer value for their progress of the SeekBar.
+<b>getMax() –</b> Allows users to set a maximum integer value for their progress of the SeekBar.<br>
 <b>getProgress() –</b> Displays current progress from the SeekBars position in real time. 
 
 ## Example Project
