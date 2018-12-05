@@ -15,12 +15,13 @@ In order to implement the main three callbacks for SeekBar, a Listener must be d
 <b>seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){…}</b><br>
 This listener is used to notify the android client when a change is being made to the progress of the SeekBar. This then invokes the use of the three callback methods mentioned before for the different states the SeekBar is in. These methods are: 
 
-## public void onProgressChanged (SeekBar seekBar, int progress, boolean fromUser) {…}
+<b>public void onProgressChanged (SeekBar seekBar, int progress, boolean fromUser) {…}</b><br>
 Listener method is invoked when the SeekBar is in use and progress values are being constantly updated. To display the current progress in this method, use: progressBar.setProgress(..); 
-## public void onStartTrackingTouch(SeekBar seekBar) {…}
+
+<b>public void onStartTrackingTouch(SeekBar seekBar) {…}</b><br>
 Listener method is invoked at the start of the user’s activity with the SeekBar. Developers have the option to include additional functionality at this time during the initial startup such as displaying messages and giving feedback of functional operations. 
 
-## public void onStopTrackingTouch(SeekBar seekBar) {…}
+<b>public void onStopTrackingTouch(SeekBar seekBar) {…}</b><br>
 Listener method is invoked at the end of user interactions with the SeekBar. When the SeekBar is no longer in use and the user has stopped dragging the thumb, the method notifies the client and stops tracking. It can be resumed at any moment once again if the user desires and these three callback methods will continue operation. 
 
 Additional methods may be used, but are not mandatory. Some examples are:
