@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AbsSeekBar</string>
+    <string name="current_progress_at_0">Current Progress at 0%</string>
+    <string name="_0">0%</string>
+    <string name="current_progress_at_02">Current Progress at 0%</string>
+    <string name="_02">0%</string>
+</resources>
