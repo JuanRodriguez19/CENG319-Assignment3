@@ -12,7 +12,7 @@ The AbsSeekBar was added In API level 1 making it one of the earliest widgets to
 ## Major methods and Attributes
 In order to implement the main three callbacks for SeekBar, a Listener must be declared initially as in the following line:
 
-## seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){…}
+<b>seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){…}</b>
 This listener is used to notify the android client when a change is being made to the progress of the SeekBar. This then invokes the use of the three callback methods mentioned before for the different states the SeekBar is in. These methods are: 
 
 ## public void onProgressChanged (SeekBar seekBar, int progress, boolean fromUser) {…}
